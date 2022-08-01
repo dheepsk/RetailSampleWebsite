@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Shop Here</title>
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>
+    What are you waiting for? Let's start shopping off someone else's credit card!
+  </h1>
+  <nav>
+    <ul>
+      <li><a href=index.html>Home</a></li>
+      <li><a href=shop.html>Shop</a></li>
+    </ul>
+  </nav>
+<!-- Carousel Code -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="A hot pink rug with champagne on it.">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Party time!</h5>
+        <p>Confidentally use our rug to drink the night away with friends knowing that you'll get 90 days to return your rug for any reason, including spilled wine(21+ only of course).</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6Rrg-Bo_69Zr1tJH4b8ouskE6CAsN8fjGLw&usqp=CAU" class="d-block w-100 l-120" alt="A pink rug with furniture on it.">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Casual Study Afternoon</h5>
+        <p>Use our rug to wind down and study or place aesthetically pleasing furniture with utmost confidence that everything will stay in place.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQOhiRtMxHCm8-FW4pevKgLi2nfh8ICTnxA&usqp=CAU" class="d-block w-50 l-120" alt="A pink rug used against the wall with a small, circular mirror up against it.">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Adaptability</h5>
+        <p>Don't like rugs? Hang them up on a wall to add a royal look to your home. Don't worry! It's thick enough to keep the wall paint in tact and also look natural(as natural as a pink rug wall can look).</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<script src="script.js"></script>
+
+<!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
