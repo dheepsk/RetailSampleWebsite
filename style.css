@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+background-color: #f7d6e0; 
+text-align: center
+}
+
+h1 {
+  color: #fc6dab
+}
+
+h3 {
+  color: #e76d83
+}
+
+.main {
+  max-height: 200px;
+  border-radius: 20%;
+}
+
+ul {
+  list-style-type: none;
+  background-image: linear-gradient(to right, #f2b5d4, white);
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: purple;
+  font-size: 1.3em;
+  padding: 0.25em;
+}
+
+li a:hover {
+  background-color: #CBBEB3
+}
